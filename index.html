@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Wake protects your wake objective so forgetting to set an alarm does not have to mean oversleeping.">
+  <title>Wake — Protect your wake objective</title>
+
+  <style>
+    :root {
+      color-scheme: dark;
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        radial-gradient(circle at top, #222b55 0, #0d1020 42%, #070910 100%);
+      color: #f5f7ff;
+    }
+
+    main {
+      width: min(900px, calc(100% - 40px));
+      margin: 0 auto;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 80px 0;
+    }
+
+    .brand {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+      opacity: .85;
+    }
+
+    h1 {
+      font-size: clamp(3rem, 9vw, 6.5rem);
+      line-height: .95;
+      margin: 24px 0;
+      letter-spacing: -.05em;
+    }
+
+    .lead {
+      max-width: 700px;
+      font-size: clamp(1.25rem, 3vw, 1.75rem);
+      line-height: 1.5;
+      color: #cbd2ee;
+    }
+
+    .message {
+      margin-top: 36px;
+      max-width: 700px;
+      line-height: 1.7;
+      color: #9da8cc;
+    }
+
+    .status {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 10px 16px;
+      border: 1px solid #46517a;
+      border-radius: 999px;
+      color: #d8def6;
+      width: fit-content;
+    }
+
+    footer {
+      margin-top: 90px;
+      display: flex;
+      gap: 24px;
+      flex-wrap: wrap;
+      font-size: .95rem;
+    }
+
+    a {
+      color: #bfc9ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <div class="brand">Wake</div>
+
+    <h1>The alarm that knows when you forgot.</h1>
+
+    <p class="lead">
+      Wake protects a wake objective instead of depending on you to remember
+      to create an alarm every day.
+    </p>
+
+    <p class="message">
+      Wake checks whether adequate wake protection exists, creates protection
+      when it is missing, verifies the wake outcome and performs bounded
+      recovery when necessary.
+    </p>
+
+    <div class="status">Android — In development</div>
+
+    <footer>
+      <span>© 2026 Wake</span>
+      <a href="privacy.html">Privacy</a>
+      <a href="support.html">Support</a>
+    </footer>
+  </main>
+</body>
+</html>
